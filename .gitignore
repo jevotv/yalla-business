@@ -218,3 +218,9 @@ __generated__/
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# ================================
+# MCP Configuration
+# ================================
+.kilocode/
+mcp.json
