@@ -1,0 +1,93 @@
+{
+  "common": {
+    "search": "بحث",
+    "addNew": "إضافة جديد",
+    "customers": "العملاء",
+    "vendors": "الموردون",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "close": "إغلاق",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجح",
+    "home": "الرئيسية",
+    "menu": "القائمة"
+  },
+  "header": {
+    "goodMorning": "صباح الخير، {{name}}",
+    "contacts": "جهات الاتصال"
+  },
+  "customer": {
+    "screenTitle": "جهات الاتصال",
+    "searchPlaceholder": "البحث عن العملاء...",
+    "newCustomers": "العملاء الجدد",
+    "thisMonth": "هذا الشهر",
+    "last3Months": "آخر 3 أشهر",
+    "thisYear": "هذا العام",
+    "totalCustomers": "عدد العملاء الإجمالي",
+    "totalCustomerReceivables": "إجمالي أرصدة العملاء المدينة",
+    "activeCustomersThisMonth": "عدد العملاء النشطين هذا الشهر",
+    "topCustomersBySalesVolume": "أكبر 3 عملاء من حيث حجم المبيعات (هذا الشهر)",
+    "totalSales": "إجمالي المبيعات",
+    "goldTier": "الدرجة الذهبية",
+    "silverTier": "الدرجة الفضية",
+    "bronzeTier": "الدرجة البرونزية",
+    "noVendorsYet": "لا يوجد موردون بعد",
+    "addFirstVendor": "أضف أول مورد لإدارة سلسلة التوريد الخاصة بك.",
+    "addVendor": "إضافة مورد",
+    "kpiCard": {
+      "newCustomers": "العملاء الجدد",
+      "totalCustomers": "عدد العملاء الإجمالي",
+      "totalReceivables": "إجمالي أرصدة العملاء المدينة",
+      "activeThisMonth": "عدد العملاء النشطين هذا الشهر",
+      "topCustomers": "أكبر 3 عملاء من حيث حجم المبيعات (هذا الشهر)"
+    }
+  },
+  "dashboard": {
+    "monthlySalesGoal": "الهدف الشهري للمبيعات",
+    "sales": "المبيعات",
+    "purchase": "المشتريات",
+    "inventory": "المخزون",
+    "treasury": "الخزينة",
+    "reports": "التقارير",
+    "returns": "المرتجعات",
+    "customers": "العملاء",
+    "buildWebsite": "بناء موقعك الإلكتروني",
+    "salesTrend": "اتجاه المبيعات",
+    "recentActivity": "النشاط الأخير",
+    "totalSales": "إجمالي المبيعات",
+    "newOrders": "الطلبات الجديدة",
+    "inventoryValue": "قيمة المخزون",
+    "vsLastWeek": "+12.5% مقارنة بالأسبوع الماضي",
+    "newOrder": "تم استلام طلب جديد رقم {{orderNumber}}",
+    "lowStock": "نفاد المخزون: '{{productName}}' ({{quantity}} متبقي)",
+    "payment": "دفعة للطلب رقم {{orderNumber}}"
+  },
+  "navigation": {
+    "return": "إرجاع",
+    "receive": "استقبال",
+    "pay": "دفع",
+    "smartAssistant": "المساعد الذكي"
+  },
+  "time": {
+    "today": "اليوم",
+    "thisWeek": "هذا الأسبوع",
+    "thisMonth": "هذا الشهر",
+    "daily": "يومي",
+    "weekly": "أسبوعي",
+    "monthly": "شهري",
+    "minutesAgo": "منذ {{count}} دقيقة",
+    "hourAgo": "منذ ساعة واحدة",
+    "hoursAgo": "منذ {{count}} ساعة",
+    "yesterday": "أمس",
+    "daysAgo": "منذ {{count}} يوم"
+  },
+  "validation": {
+    "required": "هذا الحقل مطلوب",
+    "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صحيح",
+    "minLength": "الحد الأدنى {{length}} حرف مطلوب",
+    "maxLength": "الحد الأقصى {{length}} حرف مسموح"
+  }
+}

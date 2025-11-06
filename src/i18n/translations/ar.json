@@ -1,0 +1,571 @@
+{
+  "common": {
+    "search": "بحث",
+    "addNew": "إضافة جديد",
+    "customers": "العملاء",
+    "vendors": "الموردون",
+    "customer": "عميل",
+    "vendor": "مورد",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "close": "إغلاق",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجح",
+    "home": "الرئيسية",
+    "menu": "القائمة",
+    "manageViewCustomerInfo": "إدارة وعرض معلومات العملاء",
+    "trackCashFlow": "تتبع التدفق النقدي والمالية",
+    "generateReports": "إنشاء تقارير المبيعات والمخزون",
+    "manageReturns": "إدارة مرتجعات واستبدالات المنتجات",
+    "createOnlineStore": "إنشاء وإدارة متجرك الإلكتروني",
+    "minutesAgo": "منذ {{count}} دقيقة",
+    "hourAgo": "منذ ساعة واحدة",
+    "yesterday": "أمس",
+    "vsLastWeek": "+12.5% مقارنة بالأسبوع الماضي"
+  },
+  "header": {
+    "goodMorning": "صباح الخير، {{name}}",
+    "contacts": "جهات الاتصال"
+  },
+  "customer": {
+    "screenTitle": "جهات الاتصال",
+    "searchPlaceholder": "البحث عن العملاء...",
+    "newCustomers": "العملاء الجدد",
+    "thisMonth": "هذا الشهر",
+    "last3Months": "آخر 3 أشهر",
+    "thisYear": "هذا العام",
+    "totalCustomers": "عدد العملاء الإجمالي",
+    "totalCustomerReceivables": "إجمالي أرصدة العملاء المدينة",
+    "activeCustomersThisMonth": "عدد العملاء النشطين هذا الشهر",
+    "topCustomersBySalesVolume": "أكبر 3 عملاء من حيث حجم المبيعات (هذا الشهر)",
+    "totalSales": "إجمالي المبيعات",
+    "goldTier": "الدرجة الذهبية",
+    "silverTier": "الدرجة الفضية",
+    "bronzeTier": "الدرجة البرونزية",
+    "noVendorsYet": "لا يوجد موردون بعد",
+    "addFirstVendor": "أضف أول مورد لإدارة سلسلة التوريد الخاصة بك.",
+    "addVendor": "إضافة مورد",
+    "addNewContact": "إضافة عميل/مورد جديد",
+    "type": "النوع",
+    "name": "الاسم",
+    "phone": "الهاتف",
+    "address": "العنوان",
+    "financialDetails": "التفاصيل المالية",
+    "maxDebt": "الحد الأقصى للديون",
+    "openingBalance": "الرصيد الافتتاحي",
+    "nameRequired": "الاسم مطلوب",
+    "namePlaceholder": "مثال: شركة أكمي",
+    "phonePlaceholder": "(123) 456-7890",
+    "addressPlaceholder": "123 شارع رئيسي، أي مدينة، الولايات المتحدة 12345",
+    "maxDebtPlaceholder": "0.00",
+    "openingBalancePlaceholder": "0.00",
+    "new": "جديد",
+    "newContact": "جهة اتصال جديدة",
+    "newVendor": "مورد جديد",
+    "noPhone": "لا يوجد رقم هاتف",
+    "kpiCard": {
+      "newCustomers": "العملاء الجدد",
+      "totalCustomers": "عدد العملاء الإجمالي",
+      "totalReceivables": "إجمالي أرصدة العملاء المدينة",
+      "activeThisMonth": "عدد العملاء النشطين هذا الشهر",
+      "topCustomers": "أكبر 3 عملاء من حيث حجم المبيعات (هذا الشهر)"
+    }
+  },
+  "dashboard": {
+    "monthlySalesGoal": "الهدف الشهري للمبيعات",
+    "sales": "المبيعات",
+    "purchase": "المشتريات",
+    "inventory": "المخزون",
+    "treasury": "الخزينة",
+    "reports": "التقارير",
+    "returns": "المرتجعات",
+    "customers": "العملاء",
+    "buildWebsite": "بناء موقعك الإلكتروني",
+    "salesTrend": "اتجاه المبيعات",
+    "recentActivity": "النشاط الأخير",
+    "totalSales": "إجمالي المبيعات",
+    "newOrders": "الطلبات الجديدة",
+    "inventoryValue": "قيمة المخزون",
+    "newOrder": "تم استلام طلب جديد رقم {{orderNumber}}",
+    "lowStock": "نفاد المخزون: '{{productName}}' ({{quantity}} متبقي)",
+    "payment": "دفعة للطلب رقم {{orderNumber}}",
+    "goodMorning": "صباح الخير، {{name}}"
+  },
+  "orders": {
+    "title": "الطلبات",
+    "order": "طلب",
+    "orderDetails": "تفاصيل الطلب",
+    "searchPlaceholder": "البحث في الطلبات...",
+    "thisMonth": "هذا الشهر",
+    "totalSales": "إجمالي المبيعات",
+    "averageInvoiceValue": "متوسط قيمة الفاتورة",
+    "totalInvoices": "عدد فواتير المبيعات",
+    "topProduct": "أعلى صنف مبيعاً",
+    "salesGrowth": "نسبة نمو المبيعات",
+    "outstandingReceivables": "إجمالي المبيعات الآجلة غير المحصلة",
+    "all": "الكل",
+    "pending": "في الانتظار",
+    "processing": "قيد المعالجة",
+    "shipped": "تم الشحن",
+    "delivered": "تم التسليم",
+    "cancelled": "ملغي",
+    "noMoreOrders": "لا مزيد من الطلبات",
+    "noSearchResults": "لا توجد طلبات تطابق معايير البحث الخاصة بك.",
+    "endOfOrderList": "لقد وصلت إلى نهاية قائمة الطلبات."
+  },
+  "purchases": {
+    "title": "إدارة المشتريات",
+    "purchase": "شراء",
+    "purchaseDetails": "تفاصيل الشراء",
+    "searchPlaceholder": "البحث في المشتريات...",
+    "thisMonth": "هذا الشهر",
+    "totalSales": "إجمالي المشتريات",
+    "averageInvoiceValue": "متوسط قيمة الشراء",
+    "totalInvoices": "عدد أوامر الشراء",
+    "topProduct": "أعلى صنف شراءً",
+    "salesGrowth": "نسبة نمو المشتريات",
+    "outstandingReceivables": "إجمالي المشتريات الآجلة غير المسددة",
+    "all": "الكل",
+    "pending": "في الانتظار",
+    "approved": "موافق عليه",
+    "received": "تم الاستلام",
+    "cancelled": "ملغي",
+    "noMorePurchases": "لا مزيد من المشتريات",
+    "noSearchResults": "لا توجد مشتريات تطابق معايير البحث الخاصة بك.",
+    "endOfPurchaseList": "لقد وصلت إلى نهاية قائمة المشتريات."
+  },
+  "sales": {
+    "title": "المبيعات",
+    "searchPlaceholder": "البحث بالاسم أو الرمز",
+    "allCategories": "الكل",
+    "addedToCart": "تم الإضافة إلى السلة",
+    "addedToCartMessage": "تم إضافة {{quantity}}x {{productName}} إلى السلة",
+    "viewCart": "عرض السلة",
+    "items": "عنصر",
+    "noProductsFound": "لم يتم العثور على منتجات",
+    "noProductsAvailable": "لا توجد منتجات متاحة",
+    "tryAdjustingSearch": "جرب تعديل مصطلحات البحث",
+    "productsAppearHere": "ستظهر المنتجات هنا عند توفرها",
+    "addProduct": "إضافة منتج"
+  },
+  "purchase": {
+    "title": "المشتريات",
+    "searchPlaceholder": "البحث عن المنتجات...",
+    "allItems": "جميع العناصر",
+    "inStock": "متوفر",
+    "mediumStock": "متوسط المخزون",
+    "lowStock": "مخزون منخفض",
+    "outOfStock": "نفد المخزون",
+    "totalProducts": "إجمالي المنتجات",
+    "addedToPurchaseOrder": "تم إضافة إلى أمر الشراء",
+    "addedToPurchaseOrderMessage": "تم إضافة {{quantity}}x {{productName}} إلى أمر الشراء",
+    "createPurchaseOrder": "إنشاء أمر شراء",
+    "items": "عنصر",
+    "noProductsFound": "لم يتم العثور على منتجات",
+    "noProductsAvailable": "لا توجد منتجات متاحة",
+    "tryAdjustingSearch": "جرب تعديل مصطلحات البحث",
+    "productsAppearHere": "ستظهر المنتجات هنا عند توفرها",
+    "addProduct": "إضافة منتج"
+  },
+  "navigation": {
+    "return": "إرجاع",
+    "receive": "استقبال",
+    "pay": "دفع",
+    "smartAssistant": "المساعد الذكي"
+  },
+  "time": {
+    "today": "اليوم",
+    "thisWeek": "هذا الأسبوع",
+    "thisMonth": "هذا الشهر",
+    "daily": "يومي",
+    "weekly": "أسبوعي",
+    "monthly": "شهري",
+    "minutesAgo": "منذ {{count}} دقيقة",
+    "hourAgo": "منذ ساعة واحدة",
+    "hoursAgo": "منذ {{count}} ساعة",
+    "yesterday": "أمس",
+    "daysAgo": "منذ {{count}} يوم"
+  },
+  "categories": {
+    "all": "الكل",
+    "electronics": "إلكترونيات",
+    "accessories": "ملحقات",
+    "refurbished": "مجدد"
+  },
+  "stock": {
+    "stock": "المخزون",
+    "inStock": "متوفر",
+    "mediumStock": "متوسط المخزون",
+    "lowStock": "مخزون منخفض",
+    "outOfStock": "نفد المخزون"
+  },
+  "checkout": {
+    "title": "إتمام الشراء",
+    "cartItems": "عناصر السلة",
+    "customer": "العميل",
+    "addCustomer": "إضافة عميل",
+    "paymentDetails": "تفاصيل الدفع",
+    "paymentMethod": "طريقة الدفع",
+    "cash": "نقدي",
+    "card": "بطاقة",
+    "bank": "بنك",
+    "addDiscount": "إضافة خصم",
+    "discountPlaceholder": "مثال: 10% أو 5.00 ريال",
+    "paidAmount": "المبلغ المدفوع",
+    "paidAmountPlaceholder": "0.00 ريال",
+    "notes": "ملاحظات",
+    "notesPlaceholder": "أضف أي ملاحظات للطلب هنا...",
+    "subtotal": "المجموع الفرعي",
+    "discount": "الخصم",
+    "tax": "الضريبة ({{rate}}%)",
+    "total": "الإجمالي",
+    "save": "حفظ",
+    "saveAndPrint": "حفظ وطباعة",
+    "placeOrder": "تأكيد الطلب",
+    "emptyCart": "سلة التسوق فارغة",
+    "removeItem": "إزالة العنصر",
+    "removeItemMessage": "هل أنت متأكد من رغبتك في إزالة",
+    "quantity": "الكمية",
+    "unitPrice": "السعر للوحدة",
+    "totalPrice": "السعر الإجمالي"
+  },
+  "validation": {
+    "required": "هذا الحقل مطلوب",
+    "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صحيح",
+    "minLength": "الحد الأدنى {{length}} حرف مطلوب",
+    "maxLength": "الحد الأقصى {{length}} حرف مسموح"
+  },
+  "products": {
+    "screenTitle": "المنتجات",
+    "search": {
+      "placeholder": "ابحث بالاسم أو الرمز..."
+    },
+    "filters": {
+      "all": "الكل",
+      "inStock": "متوفر",
+      "lowStock": "مخزون منخفض",
+      "outOfStock": "نفد المخزون"
+    },
+    "stockStatus": {
+      "inStock": "متوفر",
+      "lowStock": "مخزون منخفض",
+      "outOfStock": "نفد المخزون"
+    },
+    "product": {
+      "sku": "رمز المنتج",
+      "inStock": "في المخزن",
+      "addNew": "إضافة منتج جديد",
+      "edit": "تعديل المنتج",
+      "delete": "حذف المنتج"
+    },
+    "inventory": {
+      "totalValue": "إجمالي قيمة المخزون",
+      "totalItems": "إجمالي عدد الأصناف",
+      "topSelling": "المنتجات الأكثر مبيعاً",
+      "last30Days": "آخر 30 يوم",
+      "unitsSold": "وحدة مباعة",
+      "outOfStock": "المنتجات المنتهية من المخزن",
+      "restock": "إعادة تخزين",
+      "slowMoving": "المنتجات الراكدة (آخر 3 شهور)",
+      "createOffer": "إنشاء عرض",
+      "topProfitable": "اعلي 5 منتجات ربحية"
+    },
+    "emptyState": {
+      "title": "لم يتم العثور على منتجات",
+      "subtitle": "جرب تعديل مصطلحات البحث أو إضافة منتج جديد."
+    },
+    "actions": {
+      "import": "استيراد",
+      "export": "تصدير",
+      "bulkEdit": "تعديل جماعي",
+      "categoryManagement": "إدارة الفئات"
+    },
+    "addProduct": {
+      "title": "إضافة منتج جديد",
+      "image": {
+        "title": "رفع صورة المنتج",
+        "subtitle": "اضغط هنا لاختيار صورة من معرضك أو التقاط جديدة.",
+        "upload": "رفع صورة",
+        "uploadMessage": "اختر خياراً لرفع صورة المنتج",
+        "camera": "التقاط صورة",
+        "gallery": "اختيار من المعرض"
+      },
+      "name": {
+        "label": "اسم المنتج",
+        "placeholder": "مثال، العسل العضوي"
+      },
+      "description": {
+        "label": "الوصف",
+        "placeholder": "أضف معلومات مفصلة عن المنتج"
+      },
+      "costPrice": {
+        "label": "سعر التكلفة",
+        "placeholder": "10.00 ريال"
+      },
+      "salePrice": {
+        "label": "سعر البيع",
+        "placeholder": "15.00 ريال"
+      },
+      "lowestSellPrice": {
+        "label": "أقل سعر بيع",
+        "placeholder": "12.00 ريال"
+      },
+      "openingQuantity": {
+        "label": "الكمية الافتتاحية",
+        "placeholder": "0"
+      },
+      "barcode": {
+        "label": "الرمز الشريطي",
+        "placeholder": "أدخل أو أنشئ الرمز الشريطي",
+        "scanner": "قارئ الرمز الشريطي",
+        "scannerMessage": "اختر إجراء الرمز الشريطي",
+        "generate": "إنشاء الرمز الشريطي"
+      },
+      "qrCode": {
+        "title": "رمز الاستجابة السريعة",
+        "message": "خيارات رمز الاستجابة السريعة",
+        "generate": "إنشاء رمز الاستجابة السريعة"
+      },
+      "category": {
+        "label": "الفئة",
+        "placeholder": "اختر فئة",
+        "groceries": "البقالة",
+        "electronics": "الإلكترونيات",
+        "apparel": "الملابس",
+        "createNew": "+ إنشاء جديد",
+        "newCategory": "إضافة فئة جديدة",
+        "categoryNamePlaceholder": "أدخل اسم الفئة",
+        "categoryRequired": "اسم الفئة مطلوب",
+        "categoryExists": "الفئة موجودة بالفعل",
+        "categoryAddedSuccess": "تم إضافة الفئة بنجاح"
+      },
+      "saveButton": "حفظ المنتج",
+      "successMessage": "تم حفظ المنتج بنجاح!",
+      "validation": {
+        "nameRequired": "اسم المنتج مطلوب",
+        "descriptionRequired": "الوصف مطلوب",
+        "costPriceRequired": "سعر التكلفة مطلوب ويجب أن يكون أكبر من 0",
+        "salePriceRequired": "سعر البيع مطلوب ويجب أن يكون أكبر من 0",
+        "categoryRequired": "يرجى اختيار فئة"
+      }
+    }
+  },
+  "treasury": {
+    "title": "الخزينة",
+    "screenTitle": "الخزينة",
+    "currentBalance": "الرصيد الحالي",
+    "totalBalance": "إجمالي الرصيد",
+    "netFlow": "صافي التدفق",
+    "receipts": "الإيصالات",
+    "payments": "المدفوعات",
+    "receivables": "المبالغ المستحقة",
+    "payables": "المبالغ المستحقة للدفع",
+    "searchPlaceholder": "البحث بالاسم أو رقم الحساب",
+    "filter": {
+      "thisMonth": "هذا الشهر",
+      "lastMonth": "الشهر الماضي",
+      "thisQuarter": "هذا الربع",
+      "thisYear": "هذا العام"
+    },
+    "period": {
+      "today": "اليوم",
+      "thisWeek": "هذا الأسبوع",
+      "thisMonth": "هذا الشهر"
+    },
+    "tabs": {
+      "all": "الكل",
+      "receipts": "إيصالات",
+      "payments": "مدفوعات"
+    },
+    "transactions": {
+      "all": "الكل",
+      "receipts": "إيصالات",
+      "payments": "مدفوعات",
+      "viewInvoice": "عرض الفاتورة",
+      "viewReceipt": "عرض الإيصال",
+      "paymentFromAcme": "دفعة من شركة أكمي",
+      "officeSupplies": "شراء مستلزمات مكتبية",
+      "projectGammaPayment": "دفعة مشروع جاما",
+      "monthlySoftwareSubscription": "الاشتراك الشهري للبرمجيات"
+    },
+    "balance": {
+      "currentBalance": "الرصيد الحالي",
+      "more": "المزيد"
+    },
+    "metrics": {
+      "todayNetFlow": "صافي تدفق اليوم",
+      "todayReceipts": "إيصالات اليوم",
+      "todayPayments": "مدفوعات اليوم",
+      "totalReceipts": "إجمالي الإيصالات",
+      "totalPayments": "إجمالي المدفوعات",
+      "totalReceivables": "إجمالي المستحقات",
+      "totalPayables": "إجمالي المستحقات للدفع"
+    },
+    "actions": {
+      "addPayment": "إضافة دفعة",
+      "addReceipt": "إضافة إيصال",
+      "addPaymentMessage": "إضافة معاملة دفعة جديدة",
+      "addReceiptMessage": "إضافة معاملة إيصال جديدة",
+      "viewInvoice": "عرض الفاتورة",
+      "viewInvoiceFor": "عرض الفاتورة لـ"
+    },
+    "emptyState": {
+      "title": "لا توجد معاملات بعد",
+      "subtitle": "ابدأ بإضافة إيصال أو دفعة مالية."
+    },
+    "dialog": {
+      "addTransaction": "إضافة معاملة",
+      "customerVendorName": "اسم العميل / المورد",
+      "customerVendorPlaceholder": "البحث بالاسم أو الشركة",
+      "currentBalance": "الرصيد الحالي",
+      "amount": "المبلغ",
+      "amountPlaceholder": "0.00",
+      "paymentMethod": "طريقة الدفع",
+      "paymentMethodPlaceholder": "اختر طريقة",
+      "referenceNumber": "رقم المرجع",
+      "referencePlaceholder": "مثال: الفاتورة-0034",
+      "notes": "ملاحظات",
+      "notesPlaceholder": "أضف أي ملاحظات ذات صلة هنا...",
+      "relatedInvoices": "الفواتير ذات الصلة",
+      "saveReceipt": "حفظ الإيصال",
+      "savePayment": "حفظ الدفعة",
+      "paymentMethods": {
+        "bankTransfer": "تحويل بنكي",
+        "creditCard": "بطاقة ائتمانية",
+        "cash": "نقدي",
+        "check": "شيك"
+      }
+    }
+  },
+  "invoice": {
+    "details": {
+      "title": "تفاصيل الفاتورة",
+      "summary": "الملخص",
+      "customer": "العميل",
+      "invoiceDate": "تاريخ الفاتورة",
+      "orderNumber": "رقم الطلب",
+      "dueDate": "تاريخ الاستحقاق",
+      "paymentStatus": "حالة الدفع",
+      "orderStatus": "حالة الطلب",
+      "orderSummary": "ملخص الطلب",
+      "subtotal": "المجموع الفرعي",
+      "discount": "الخصم",
+      "returns": "المرتجعات",
+      "paid": "مدفوعة",
+      "unpaid": "غير مدفوعة",
+      "total": "المجموع",
+      "notes": "ملاحظات",
+      "orderItems": "عناصر الطلب",
+      "returnedItems": "العناصر المرتجعة",
+      "noReturnedItems": "لم يتم إرجاع أي عناصر لهذه الفاتورة بعد."
+    },
+    "status": {
+      "processing": "قيد المعالجة",
+      "shipped": "تم الشحن",
+      "delivered": "تم التسليم",
+      "cancelled": "ملغى"
+    },
+    "payment": {
+      "addPayment": "إضافة دفع",
+      "selectMethod": "اختر طريقة الدفع",
+      "cash": "نقداً",
+      "card": "بطاقة",
+      "bankTransfer": "تحويل بنكي",
+      "check": "شيك"
+    },
+    "items": {
+      "sku": "الرمز",
+      "quantity": "الكمية"
+    }
+  },
+  "returns": {
+    "screenTitle": "فواتير المرتجعات",
+    "returnsNumber": "عدد المرتجعات",
+    "totalSalesReturns": "إجمالي مرتجعات المبيعات",
+    "totalPurchaseReturns": "إجمالي مرتجعات المشتريات",
+    "returnsPercentage": "نسبة المرتجعات من إجمالي المبيعات",
+    "mostReturnedItem": "أكثر صنف مرتجع",
+    "salesReturn": "مرتجعات المبيعات",
+    "purchaseReturn": "مرتجعات المشتريات",
+    "searchPlaceholder": "البحث برقم الفاتورة، العميل...",
+    "returnDate": "تاريخ الإرجاع",
+    "amount": "المبلغ",
+    "originalDate": "التاريخ الأصلي",
+    "originalInvoice": "الفاتورة الأصلية",
+    "viewInvoice": "عرض {{invoice}}",
+    "notes": "ملاحظات",
+    "noReturnsFound": "لم يتم العثور على فواتير مرتجعات",
+    "noReturnsMessage": "يبدو أنه لا توجد فواتير مرتجعات للعرض في الوقت الحالي. ستظهر المرتجعات الجديدة هنا.",
+    "newPurchaseReturn": "مرتجع شراء جديد",
+    "newSalesReturn": "مرتجع مبيعات جديد",
+    "status": {
+      "completed": "مكتمل",
+      "pending": "في الانتظار",
+      "refunded": "مسترد",
+      "paid": "مدفوع",
+      "partiallyPaid": "مدفوع جزئياً",
+      "unpaid": "غير مدفوع"
+    },
+    "selectInvoiceForReturn": {
+      "screenTitle": "اختيار فاتورة للإرجاع",
+      "screenTitlePurchase": "اختيار أمر شراء للإرجاع",
+      "searchPlaceholderSales": "البحث برقم الفاتورة أو العميل",
+      "searchPlaceholderPurchase": "البحث برقم PO أو المورد",
+      "filter": "تصفية",
+      "dateRange": "النطاق الزمني",
+      "emptyStateTitle": "لم يتم العثور على فواتير",
+      "emptyStateMessage": "جرب تعديل معايير البحث أو التصفية.",
+      "view": "عرض تفاصيل الفاتورة",
+      "selectInvoice": "اختيار فاتورة للإرجاع"
+    },
+    "invoiceDetail": {
+      "screenTitle": "تفاصيل الفاتورة",
+      "back": "رجوع",
+      "invoiceInfo": "معلومات الفاتورة",
+      "customerName": "اسم العميل",
+      "orderDate": "تاريخ الطلب",
+      "orderNumber": "رقم الطلب",
+      "paymentStatus": "حالة الدفع",
+      "orderStatus": "حالة الطلب",
+      "orderSummary": "ملخص الطلب",
+      "subtotal": "المجموع الفرعي",
+      "discount": "الخصم",
+      "tax": "الضريبة",
+      "total": "الإجمالي",
+      "orderItems": "عناصر الطلب",
+      "item": "العنصر",
+      "qty": "الكمية",
+      "unitPrice": "سعر الوحدة",
+      "totalPrice": "الإجمالي",
+      "returnedItems": "العناصر المرتجعة",
+      "noReturnedItems": "لم يتم إرجاع أي عناصر لهذه الفاتورة بعد.",
+      "status": {
+        "paid": "مدفوع",
+        "pending": "في الانتظار",
+        "overdue": "متأخر",
+        "cancelled": "ملغي",
+        "completed": "مكتمل",
+        "processing": "قيد المعالجة",
+        "shipped": "تم الشحن"
+      },
+      "paymentMethods": {
+        "cash": "نقدي",
+        "creditCard": "بطاقة ائتمانية",
+        "bankTransfer": "تحويل بنكي",
+        "check": "شيك"
+      },
+      "actions": {
+        "editStatus": "تعديل الحالة",
+        "print": "طباعة",
+        "share": "مشاركة",
+        "createReturn": "إنشاء إرجاع"
+      },
+      "emptyState": {
+        "noItems": "لا توجد عناصر في هذه الفاتورة"
+      }
+    }
+  }
+}

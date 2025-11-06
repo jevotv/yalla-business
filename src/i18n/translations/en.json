@@ -1,0 +1,571 @@
+{
+  "common": {
+    "search": "Search",
+    "addNew": "Add New",
+    "customers": "Customers",
+    "vendors": "Vendors",
+    "customer": "Customer",
+    "vendor": "Vendor",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "home": "Home",
+    "menu": "Menu",
+    "manageViewCustomerInfo": "Manage and view customer information",
+    "trackCashFlow": "Track your cash flow and finances",
+    "generateReports": "Generate sales and inventory reports",
+    "manageReturns": "Manage product returns and exchanges",
+    "createOnlineStore": "Create and manage your online store",
+    "minutesAgo": "{{count}} minutes ago",
+    "hourAgo": "1 hour ago",
+    "yesterday": "Yesterday",
+    "vsLastWeek": "+12.5% vs last week"
+  },
+  "header": {
+    "goodMorning": "Good Morning, {{name}}",
+    "contacts": "Contacts"
+  },
+  "customer": {
+    "screenTitle": "Contacts",
+    "searchPlaceholder": "Search customers...",
+    "newCustomers": "New Customers",
+    "thisMonth": "This Month",
+    "last3Months": "Last 3 Months",
+    "thisYear": "This Year",
+    "totalCustomers": "Total Customers",
+    "totalCustomerReceivables": "Total Customer Receivables",
+    "activeCustomersThisMonth": "Active Customers This Month",
+    "topCustomersBySalesVolume": "Top 3 Customers by Sales Volume (This Month)",
+    "totalSales": "Total Sales",
+    "goldTier": "Gold Tier",
+    "silverTier": "Silver Tier",
+    "bronzeTier": "Bronze Tier",
+    "noVendorsYet": "No vendors yet",
+    "addFirstVendor": "Add your first vendor to manage your supply chain.",
+    "addVendor": "Add Vendor",
+    "addNewContact": "Add New Customer/Vendor",
+    "type": "Type",
+    "name": "Name",
+    "phone": "Phone",
+    "address": "Address",
+    "financialDetails": "Financial Details",
+    "maxDebt": "Max Debt",
+    "openingBalance": "Opening Balance",
+    "nameRequired": "Name is required",
+    "namePlaceholder": "e.g. Acme Corporation",
+    "phonePlaceholder": "(123) 456-7890",
+    "addressPlaceholder": "123 Main St, Anytown, USA 12345",
+    "maxDebtPlaceholder": "0.00",
+    "openingBalancePlaceholder": "0.00",
+    "new": "New",
+    "newContact": "New Contact",
+    "newVendor": "New Vendor",
+    "noPhone": "No phone number",
+    "kpiCard": {
+      "newCustomers": "New Customers",
+      "totalCustomers": "Total Customers",
+      "totalReceivables": "Total Customer Receivables",
+      "activeThisMonth": "Active Customers This Month",
+      "topCustomers": "Top 3 Customers by Sales Volume (This Month)"
+    }
+  },
+  "dashboard": {
+    "monthlySalesGoal": "Monthly Sales Goal",
+    "sales": "Sales",
+    "purchase": "Purchase",
+    "inventory": "Inventory",
+    "treasury": "Treasury",
+    "reports": "Reports",
+    "returns": "Returns",
+    "customers": "Customers",
+    "buildWebsite": "Build Your Website",
+    "salesTrend": "Sales Trend",
+    "recentActivity": "Recent Activity",
+    "totalSales": "Total Sales",
+    "newOrders": "New Orders",
+    "inventoryValue": "Inventory Value",
+    "vsLastWeek": "+12.5% vs last week",
+    "newOrder": "New Order #{{orderNumber}} received",
+    "lowStock": "Low stock: '{{productName}}' ({{quantity}} left)",
+    "payment": "Payment for Order #{{orderNumber}}"
+  },
+  "orders": {
+    "title": "Orders",
+    "order": "Order",
+    "orderDetails": "Order Details",
+    "searchPlaceholder": "Search orders...",
+    "thisMonth": "This Month",
+    "totalSales": "Total Sales",
+    "averageInvoiceValue": "Average Invoice Value",
+    "totalInvoices": "Number of Sales Invoices",
+    "topProduct": "Top Selling Product",
+    "salesGrowth": "Sales Growth Rate",
+    "outstandingReceivables": "Total Outstanding Sales Receivables",
+    "all": "All",
+    "pending": "Pending",
+    "processing": "Processing",
+    "shipped": "Shipped",
+    "delivered": "Delivered",
+    "cancelled": "Cancelled",
+    "noMoreOrders": "No More Orders",
+    "noSearchResults": "No orders match your search criteria.",
+    "endOfOrderList": "You've reached the end of the order list."
+  },
+  "purchases": {
+    "title": "Purchase Management",
+    "purchase": "Purchase",
+    "purchaseDetails": "Purchase Details",
+    "searchPlaceholder": "Search purchases...",
+    "thisMonth": "This Month",
+    "totalSales": "Total Purchases",
+    "averageInvoiceValue": "Average Purchase Value",
+    "totalInvoices": "Number of Purchase Orders",
+    "topProduct": "Top Purchased Item",
+    "salesGrowth": "Purchase Growth Rate",
+    "outstandingReceivables": "Total Outstanding Purchase Payables",
+    "all": "All",
+    "pending": "Pending",
+    "approved": "Approved",
+    "received": "Received",
+    "cancelled": "Cancelled",
+    "noMorePurchases": "No More Purchases",
+    "noSearchResults": "No purchases match your search criteria.",
+    "endOfPurchaseList": "You've reached the end of the purchase list."
+  },
+  "sales": {
+    "title": "Sales",
+    "searchPlaceholder": "Search by name or SKU",
+    "allCategories": "All",
+    "addedToCart": "Added to Cart",
+    "addedToCartMessage": "{{quantity}}x {{productName}} added to cart",
+    "viewCart": "View Cart",
+    "items": "Items",
+    "noProductsFound": "No products found",
+    "noProductsAvailable": "No products available",
+    "tryAdjustingSearch": "Try adjusting your search terms",
+    "productsAppearHere": "Products will appear here when available",
+    "addProduct": "Add Product"
+  },
+  "purchase": {
+    "title": "Purchase",
+    "searchPlaceholder": "Search products...",
+    "allItems": "All Items",
+    "inStock": "In Stock",
+    "mediumStock": "Medium Stock",
+    "lowStock": "Low Stock",
+    "outOfStock": "Out of Stock",
+    "totalProducts": "Total Products",
+    "addedToPurchaseOrder": "Added to Purchase Order",
+    "addedToPurchaseOrderMessage": "{{quantity}}x {{productName}} added to purchase order",
+    "createPurchaseOrder": "Create Purchase Order",
+    "items": "Items",
+    "noProductsFound": "No products found",
+    "noProductsAvailable": "No products available",
+    "tryAdjustingSearch": "Try adjusting your search terms",
+    "productsAppearHere": "Products will appear here when available",
+    "addProduct": "Add Product"
+  },
+  "navigation": {
+    "return": "Return",
+    "receive": "Receive",
+    "pay": "Pay",
+    "smartAssistant": "AI Assistant"
+  },
+  "time": {
+    "today": "Today",
+    "thisWeek": "This Week",
+    "thisMonth": "This Month",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "minutesAgo": "{{count}} minutes ago",
+    "hourAgo": "1 hour ago",
+    "hoursAgo": "{{count}} hours ago",
+    "yesterday": "Yesterday",
+    "daysAgo": "{{count}} days ago"
+  },
+  "categories": {
+    "all": "All",
+    "electronics": "Electronics",
+    "accessories": "Accessories",
+    "refurbished": "Refurbished"
+  },
+  "stock": {
+    "stock": "Stock",
+    "inStock": "In Stock",
+    "mediumStock": "Medium Stock",
+    "lowStock": "Low Stock",
+    "outOfStock": "Out of Stock"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "cartItems": "Cart Items",
+    "customer": "Customer",
+    "addCustomer": "Add a customer",
+    "paymentDetails": "Payment Details",
+    "paymentMethod": "Payment Method",
+    "cash": "Cash",
+    "card": "Card",
+    "bank": "Bank",
+    "addDiscount": "Add Discount",
+    "discountPlaceholder": "e.g. 10% or $5.00",
+    "paidAmount": "Paid Amount",
+    "paidAmountPlaceholder": "$0.00",
+    "notes": "Notes",
+    "notesPlaceholder": "Add any order notes here...",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "tax": "Tax ({{rate}}%)",
+    "total": "Total",
+    "save": "Save",
+    "saveAndPrint": "Save & Print",
+    "placeOrder": "Place Order",
+    "emptyCart": "Your cart is empty",
+    "removeItem": "Remove item",
+    "removeItemMessage": "Are you sure you want to remove",
+    "quantity": "Quantity",
+    "unitPrice": "Unit Price",
+    "totalPrice": "Total Price"
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "minLength": "Minimum {{length}} characters required",
+    "maxLength": "Maximum {{length}} characters allowed"
+  },
+  "products": {
+    "screenTitle": "Products",
+    "search": {
+      "placeholder": "Search by name or SKU..."
+    },
+    "filters": {
+      "all": "All",
+      "inStock": "In Stock",
+      "lowStock": "Low Stock",
+      "outOfStock": "Out of Stock"
+    },
+    "stockStatus": {
+      "inStock": "In Stock",
+      "lowStock": "Low Stock",
+      "outOfStock": "Out of Stock"
+    },
+    "product": {
+      "sku": "SKU",
+      "inStock": "in stock",
+      "addNew": "Add New Product",
+      "edit": "Edit Product",
+      "delete": "Delete Product"
+    },
+    "inventory": {
+      "totalValue": "Total Inventory Value",
+      "totalItems": "Total Items",
+      "topSelling": "Top Selling Products",
+      "last30Days": "Last 30 days",
+      "unitsSold": "units sold",
+      "outOfStock": "Out of Stock Items",
+      "restock": "Restock",
+      "slowMoving": "Slow Moving Products (Last 3 Months)",
+      "createOffer": "Create Offer",
+      "topProfitable": "Top 5 Most Profitable Products"
+    },
+    "emptyState": {
+      "title": "No Products Found",
+      "subtitle": "Try adjusting your search terms or add a new product."
+    },
+    "actions": {
+      "import": "Import",
+      "export": "Export",
+      "bulkEdit": "Bulk Edit",
+      "categoryManagement": "Category Management"
+    },
+    "addProduct": {
+      "title": "Add New Product",
+      "image": {
+        "title": "Upload Product Photo",
+        "subtitle": "Tap here to select an image from your gallery or take a new one.",
+        "upload": "Upload Image",
+        "uploadMessage": "Choose an option to upload product image",
+        "camera": "Take Photo",
+        "gallery": "Choose from Gallery"
+      },
+      "name": {
+        "label": "Product Name",
+        "placeholder": "e.g., Organic Honey"
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Add detailed product information"
+      },
+      "costPrice": {
+        "label": "Cost Price",
+        "placeholder": "$10.00"
+      },
+      "salePrice": {
+        "label": "Sale Price",
+        "placeholder": "$15.00"
+      },
+      "lowestSellPrice": {
+        "label": "Lowest Sell Price",
+        "placeholder": "$12.00"
+      },
+      "openingQuantity": {
+        "label": "Opening Quantity",
+        "placeholder": "0"
+      },
+      "barcode": {
+        "label": "Barcode",
+        "placeholder": "Enter or generate barcode",
+        "scanner": "Barcode Scanner",
+        "scannerMessage": "Choose barcode action",
+        "generate": "Generate Barcode"
+      },
+      "qrCode": {
+        "title": "QR Code",
+        "message": "QR Code options",
+        "generate": "Generate QR Code"
+      },
+      "category": {
+        "label": "Category",
+        "placeholder": "Select a category",
+        "groceries": "Groceries",
+        "electronics": "Electronics",
+        "apparel": "Apparel",
+        "createNew": "+ Create New",
+        "newCategory": "Add New Category",
+        "categoryNamePlaceholder": "Enter category name",
+        "categoryRequired": "Category name is required",
+        "categoryExists": "Category already exists",
+        "categoryAddedSuccess": "Category added successfully"
+      },
+      "saveButton": "Save Product",
+      "successMessage": "Product saved successfully!",
+      "validation": {
+        "nameRequired": "Product name is required",
+        "descriptionRequired": "Description is required",
+        "costPriceRequired": "Cost price is required and must be greater than 0",
+        "salePriceRequired": "Sale price is required and must be greater than 0",
+        "categoryRequired": "Please select a category"
+      }
+    }
+  },
+  "treasury": {
+    "title": "Treasury",
+    "screenTitle": "Treasury",
+    "currentBalance": "Current Balance",
+    "totalBalance": "Total Balance",
+    "netFlow": "Net Flow",
+    "receipts": "Receipts",
+    "payments": "Payments",
+    "receivables": "Receivables",
+    "payables": "Payables",
+    "searchPlaceholder": "Search by name or account number",
+    "filter": {
+      "thisMonth": "This Month",
+      "lastMonth": "Last Month",
+      "thisQuarter": "This Quarter",
+      "thisYear": "This Year"
+    },
+    "period": {
+      "today": "Today",
+      "thisWeek": "This Week",
+      "thisMonth": "This Month"
+    },
+    "tabs": {
+      "all": "All",
+      "receipts": "Receipts",
+      "payments": "Payments"
+    },
+    "transactions": {
+      "all": "All",
+      "receipts": "Receipts",
+      "payments": "Payments",
+      "viewInvoice": "View Invoice",
+      "viewReceipt": "View Receipt",
+      "paymentFromAcme": "Payment from Acme Corp",
+      "officeSupplies": "Office Supplies Purchase",
+      "projectGammaPayment": "Project Gamma Payment",
+      "monthlySoftwareSubscription": "Monthly Software Subscription"
+    },
+    "balance": {
+      "currentBalance": "Current Balance",
+      "more": "More"
+    },
+    "metrics": {
+      "todayNetFlow": "Today's Net Flow",
+      "todayReceipts": "Today's Receipts",
+      "todayPayments": "Today's Payments",
+      "totalReceipts": "Total Receipts",
+      "totalPayments": "Total Payments",
+      "totalReceivables": "Total Receivables",
+      "totalPayables": "Total Payables"
+    },
+    "actions": {
+      "addPayment": "Add Payment",
+      "addReceipt": "Add Receipt",
+      "addPaymentMessage": "Add new payment transaction",
+      "addReceiptMessage": "Add new receipt transaction",
+      "viewInvoice": "View Invoice",
+      "viewInvoiceFor": "View invoice for"
+    },
+    "emptyState": {
+      "title": "No transactions yet",
+      "subtitle": "Start by adding a receipt or payment transaction."
+    },
+    "dialog": {
+      "addTransaction": "Add Transaction",
+      "customerVendorName": "Customer / Vendor Name",
+      "customerVendorPlaceholder": "Search by name or company",
+      "currentBalance": "Current Balance",
+      "amount": "Amount",
+      "amountPlaceholder": "0.00",
+      "paymentMethod": "Payment Method",
+      "paymentMethodPlaceholder": "Select a method",
+      "referenceNumber": "Reference Number",
+      "referencePlaceholder": "e.g., INV-0034",
+      "notes": "Notes",
+      "notesPlaceholder": "Add any relevant notes here...",
+      "relatedInvoices": "Related Invoices",
+      "saveReceipt": "Save Receipt",
+      "savePayment": "Save Payment",
+      "paymentMethods": {
+        "bankTransfer": "Bank Transfer",
+        "creditCard": "Credit Card",
+        "cash": "Cash",
+        "check": "Check"
+      }
+    }
+  },
+  "invoice": {
+    "details": {
+      "title": "Invoice Details",
+      "summary": "Summary",
+      "customer": "Customer",
+      "invoiceDate": "Invoice Date",
+      "orderNumber": "Order Number",
+      "dueDate": "Due Date",
+      "paymentStatus": "Payment Status",
+      "orderStatus": "Order Status",
+      "orderSummary": "Order Summary",
+      "subtotal": "Subtotal",
+      "discount": "Discount",
+      "returns": "Returns",
+      "paid": "Paid",
+      "unpaid": "Unpaid",
+      "total": "Total",
+      "notes": "Notes",
+      "orderItems": "Order Items",
+      "returnedItems": "Returned Items",
+      "noReturnedItems": "No items have been returned for this invoice yet."
+    },
+    "status": {
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    },
+    "payment": {
+      "addPayment": "Add Payment",
+      "selectMethod": "Select Payment Method",
+      "cash": "Cash",
+      "card": "Card",
+      "bankTransfer": "Bank Transfer",
+      "check": "Check"
+    },
+    "items": {
+      "sku": "SKU",
+      "quantity": "Quantity"
+    }
+  },
+  "returns": {
+    "screenTitle": "Return Invoices",
+    "returnsNumber": "Returns Number",
+    "totalSalesReturns": "Total Sales Returns",
+    "totalPurchaseReturns": "Total Purchase Returns",
+    "returnsPercentage": "Returns Percentage from Total Sales",
+    "mostReturnedItem": "Most Returned Item",
+    "salesReturn": "Sales Return",
+    "purchaseReturn": "Purchase Return",
+    "searchPlaceholder": "Search by invoice #, customer...",
+    "returnDate": "Return Date",
+    "amount": "Amount",
+    "originalDate": "Original Date",
+    "originalInvoice": "Original Invoice",
+    "viewInvoice": "View {{invoice}}",
+    "notes": "Notes",
+    "noReturnsFound": "No Return Invoices Found",
+    "noReturnsMessage": "It looks like there are no return invoices to display at the moment. New returns will appear here.",
+    "newPurchaseReturn": "New Purchase Return",
+    "newSalesReturn": "New Sales Return",
+    "status": {
+      "completed": "Completed",
+      "pending": "Pending",
+      "refunded": "Refunded",
+      "paid": "Paid",
+      "partiallyPaid": "Partially Paid",
+      "unpaid": "Unpaid"
+    },
+    "selectInvoiceForReturn": {
+      "screenTitle": "Select Invoice for Return",
+      "screenTitlePurchase": "Select Purchase Order for Return",
+      "searchPlaceholderSales": "Search by Invoice # or Customer",
+      "searchPlaceholderPurchase": "Search by PO # or Vendor",
+      "filter": "Filter",
+      "dateRange": "Date Range",
+      "emptyStateTitle": "No Invoices Found",
+      "emptyStateMessage": "Try adjusting your search or filter criteria.",
+      "view": "View Invoice Details",
+      "selectInvoice": "Select Invoice for Return"
+    },
+    "invoiceDetail": {
+      "screenTitle": "Invoice Details",
+      "back": "Back",
+      "invoiceInfo": "Invoice Information",
+      "customerName": "Customer Name",
+      "orderDate": "Order Date",
+      "orderNumber": "Order Number",
+      "paymentStatus": "Payment Status",
+      "orderStatus": "Order Status",
+      "orderSummary": "Order Summary",
+      "subtotal": "Subtotal",
+      "discount": "Discount",
+      "tax": "Tax",
+      "total": "Total",
+      "orderItems": "Order Items",
+      "item": "Item",
+      "qty": "Qty",
+      "unitPrice": "Unit Price",
+      "totalPrice": "Total",
+      "returnedItems": "Returned Items",
+      "noReturnedItems": "No items have been returned for this invoice yet.",
+      "status": {
+        "paid": "Paid",
+        "pending": "Pending",
+        "overdue": "Overdue",
+        "cancelled": "Cancelled",
+        "completed": "Completed",
+        "processing": "Processing",
+        "shipped": "Shipped"
+      },
+      "paymentMethods": {
+        "cash": "Cash",
+        "creditCard": "Credit Card",
+        "bankTransfer": "Bank Transfer",
+        "check": "Check"
+      },
+      "actions": {
+        "editStatus": "Edit Status",
+        "print": "Print",
+        "share": "Share",
+        "createReturn": "Create Return"
+      },
+      "emptyState": {
+        "noItems": "No items in this invoice"
+      }
+    }
+  }
+}
